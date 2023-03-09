@@ -1,0 +1,109 @@
+/*-----------INDEX---------*/
+
+.page_wrapper{
+display: flex;
+flex-direction: column;
+justify-items: center;
+height: 100vw;
+align-items: center;
+width: 800px;
+margin:20px auto;
+}
+
+
+
+
+/*-----------header---------*/
+
+.header{
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+    height: 150px;
+    width: 90%;
+}
+.header_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+
+}
+.banner{
+
+}
+
+.header_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 90%;
+}
+.login_button{
+
+}
+.register_button{
+
+}
+
+/*-----------body---------*/
+.main_body{
+   display: grid;
+   grid-template-areas:"mp mp mp sp1 sp1"
+                       "mp mp mp sp1 sp1"
+                       "mp mp mp sp2 sp2"
+                       "tp tp tp sp2 sp2"
+                       "op op op op op"
+                       "op op op op op";
+
+height: 700px;
+width: 100%;
+}
+.main_post{
+    grid-area: mp;
+    background-color: aqua;
+   
+}
+.sec_post1{
+    grid-area: sp1;
+    background-color: yellow;
+}
+.sec_post2{
+    grid-area: sp2;
+    background-color: chocolate;
+}
+.teriary_post{
+    grid-area: tp;
+    background-color: blue;
+}
+.other_posts{
+	grid-area:op;
+	background-color: grey;
+}
+.post_img{
+
+}
+.post_title{
+    
+}
+.post_content{
+    
+}
+.post_owner{
+    
+}
+/*-----------footer---------*/
+.footer{
+width: 80%;
+height: 60px;
+}
+.footer_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer_button{
+
+}
